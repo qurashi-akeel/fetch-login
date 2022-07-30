@@ -1,12 +1,12 @@
 import './App.css';
-import { Login } from './components';
+import { Swagger } from './components';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>Test</p>
-        <Login />
+        <Swagger />
       </header>
     </div>
   );
