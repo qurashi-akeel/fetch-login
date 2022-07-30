@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 
 const url = `${process.env.REACT_APP_URL}/configuration/restServers`;
-const token = process.env.REACT_APP_BEARER;
+// const token = process.env.REACT_APP_BEARER;
+const token = localStorage.getItem('token');
 
 const Login = () => {
   const [swag, setSwag] = useState({});
